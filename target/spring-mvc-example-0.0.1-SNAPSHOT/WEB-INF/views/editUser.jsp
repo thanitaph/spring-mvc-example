@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Create User</title>
+<title>Edit User</title>
 </head>
 <body>
-	<h3>User Form</h3>
-	<form action="${pageContext.request.contextPath}/user/add" method="post">
-		<input type="text" name="userName"><br/>
-		<input type="text" name="userAge"><br/>
-		<input type="submit" value="Create">
+	<h3>Edit User Form</h3>
+	<form action="${pageContext.request.contextPath}/user/edit" method="post">
+		<input type="text" name="userName" value="${user.userName}"><br/>
+		<input type="text" name="userAge" value="${user.userAge}"><br/>
+		<input type="submit" value="Edit">
 	</form>
 </body>
 </html>

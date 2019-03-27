@@ -3,6 +3,7 @@ package com.code.spring.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,6 +20,7 @@ import com.code.spring.model.User;
 public class UserController {
 	
 	@Autowired
+	@Qualifier("userDAOHiber")
 	private UserDAO userDao;
 	
 	@RequestMapping

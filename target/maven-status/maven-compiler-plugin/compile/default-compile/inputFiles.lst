@@ -1,5 +1,8 @@
-C:\Users\Maprang\eclipse-workspace\spring-mvc-example\src\main\java\com\code\spring\model\User.java
-C:\Users\Maprang\eclipse-workspace\spring-mvc-example\src\main\java\com\code\spring\dao\UserDAO.java
-C:\Users\Maprang\eclipse-workspace\spring-mvc-example\src\main\java\com\code\spring\impl\UserDAOImpl.java
-C:\Users\Maprang\eclipse-workspace\spring-mvc-example\src\main\java\com\code\spring\controller\HomeController.java
-C:\Users\Maprang\eclipse-workspace\spring-mvc-example\src\main\java\com\code\spring\controller\UserController.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\service\UserServiceImpl.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\impl\UserDAOImplHib.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\controller\UserController.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\service\UserService.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\model\User.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\dao\UserDAO.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\controller\HomeController.java
+E:\WorkspaceGit\spring-mvc-example\src\main\java\com\code\spring\impl\UserDAOImpl.java

@@ -1,6 +1,9 @@
-com\code\spring\dao\UserDAO.class
 com\code\spring\impl\UserDAOImpl$1.class
 com\code\spring\model\User.class
-com\code\spring\controller\UserController.class
 com\code\spring\impl\UserDAOImpl.class
+com\code\spring\impl\UserDAOImplHib.class
 com\code\spring\controller\HomeController.class
+com\code\spring\dao\UserDAO.class
+com\code\spring\service\UserServiceImpl.class
+com\code\spring\controller\UserController.class
+com\code\spring\service\UserService.class

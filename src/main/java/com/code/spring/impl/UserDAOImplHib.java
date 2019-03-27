@@ -2,12 +2,17 @@ package com.code.spring.impl;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import com.code.spring.dao.UserDAO;
 import com.code.spring.model.User;
 
+@Repository
+@Transactional
 public class UserDAOImplHib implements UserDAO{
 	
 	@Autowired
@@ -43,7 +48,7 @@ public class UserDAOImplHib implements UserDAO{
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<User> list() {
-		return sessionFactory.getCurrentSession().createQuery("from user")
+		return sessionFactory.getCurrentSession().createQuery("from User")
                 .list();
 	}
 
